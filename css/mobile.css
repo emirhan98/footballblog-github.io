@@ -1,0 +1,28 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-Title {
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.fa-home {
+    display: none;
+}
+
+.topnav {
+    display: none;
+}
+
+.sec-grid {
+    grid-column-start: span;
+}
+
+.sec-grid-4 {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: flex-end;
+    position: relative;
+}
