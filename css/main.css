@@ -1,0 +1,178 @@
+/* CUSTOM NAVBAR */
+
+.main-Content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.main-Title {
+    color: #ffffff;
+    letter-spacing: 0.7rem;
+    font-size: 1.8rem;
+}
+
+.fa {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 2rem;
+    transition: all .2s ease;
+}
+
+.fa-medium:hover {
+    color: brown;
+}
+
+.fa-twitter:hover {
+    color: #166185;
+}
+
+.fa-facebook:hover {
+    color: #1e1870;
+}
+
+.fa-spotify:hover {
+    color: green;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.kits {
+    align-self: center;
+}
+
+.navbar {
+    background-color: var(--Main-Color);
+    margin-bottom: 5rem;
+}
+
+.nav-item a {
+    font-size: 1.2rem;
+    transition: all .2s ease;
+}
+
+.nav-item a:hover {
+    color: #166185;
+    background: #000000;
+}
+
+.fa-home {
+    margin-right: 1.4rem;
+    font-size: 4rem;
+    position: fixed;
+    left: 2%;
+    top: 0;
+    background-attachment: fixed;
+    color: black;
+}
+
+.mainLink:hover {
+    color: #166185;
+}
+
+.homeLink {
+    color: black;
+    margin-right: 1.4rem;
+    font-weight: 3rem;
+    font-size: 1rem;
+    position: fixed;
+    left: 0%;
+    top: 6%;
+    background-attachment: fixed;
+    color: black;
+}
+
+.fa-home:hover {
+    color: #166185;
+}
+
+.fa-home:hover .homeLink {
+    color: yellow;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    height: 100%;
+}
+
+.top-section {
+    border-bottom: 0.1rem solid #1e1870;
+}
+
+.top-content .top-Info {
+    padding: 1rem;
+}
+
+.top-content p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.foto {
+    width: 500px;
+    height: 600px;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.middle-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    height: 100%;
+}
+
+.page-Info p {
+    font-size: 1.2rem;
+    text-indent: 0.4rem;
+    height: 600px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: "devamı için linke tıkla";
+    word-break: normal;
+    word-spacing: .5rem;
+}
+
+.content {
+    text-align: center;
+    height: 300px;
+}
+
+.content h1 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.content p {
+    font-size: 1rem;
+    color: black;
+}
+
+.footer-items {
+    color: navy;
+}
+
+.icon-text {
+    color: black;
+    font-size: 2rem;
+}
+
+.foto p {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    opacity: .5;
+}
+
+.foto p:hover {
+    color: #166185;
+}
+
+.foto p:hover .icon-text {
+    color: #166185;
+}
