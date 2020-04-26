@@ -1,6 +1,7 @@
 .container {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .sec-grid-4 {
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: flex-end;
     position: relative;
 }

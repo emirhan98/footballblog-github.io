@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="./css/global.css">
     <!--Main css-->
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
+
+
     <div class="topnav">
-        <div class="container">
+        <div class=".container-nav ani-fade-up ani-delay">
             <div class="main-Content">
                 <h1 class="main-Title"><a href="index.html" class="mainLink"><i class="fas fa-futbol"></i>HIGHBURY</a></h1>
                 <div class="kits">
@@ -34,10 +37,10 @@
                 <nav class="nav flexbox-center">
                     <a href="index.html" class="homeLink">BAŞA DÖN<i class="fas fa-home"></i></a>
                     <ul class="nav-items flexbox-center">
-                        <li class="nav-item"><a href="#">YAZILAR</a></li>
-                        <li class="nav-item"><a href="#">PODCASTLER</a></li>
-                        <li class="nav-item"><a href="#">YAZARLAR</a></li>
-                        <li class="nav-item"><a href="#">HAKKIMIZDA</a></li>
+                        <li class="nav-item"><a href="articles.html">YAZILAR</a></li>
+                        <li class="nav-item"><a href="podcasts.html">PODCASTLER</a></li>
+                        <li class="nav-item"><a href="writers.html">YAZARLAR</a></li>
+                        <li class="nav-item"><a href="bio.html">HAKKIMIZDA</a></li>
                     </ul>
                 </nav>
             </div>
@@ -53,7 +56,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container ani-bottom">
         <div class="sec-grid top-section">
             <div class="top-content">
                 <div class="top-Info">
@@ -64,13 +67,15 @@
                 </div>
             </div>
             <div class="foto"><img src="zach-rowlandson-WGB9EEnAaMQ-unsplash.jpg" alt=""></div>
-
-
+        </div>
+        <div class="sec-grid photos-top ani-left">
+            <img class="foto-1" src="./david-clarke-DRtKiuN9_Mk-unsplash.jpg" alt="">
+            <img class="foto-2" src="nathan-rogers-_iMBEfd1zGk-unsplash.jpg" alt="">
         </div>
     </div>
 
 
-    <div class="container middle-Cont">
+    <div class="container middle-Cont ani-fade-up ani-delay">
         <div class="sec-grid middle-content">
             <div class="middle-page">
                 <div class="page-Info">
@@ -112,7 +117,7 @@
         </div>
 
     </div>
-    <div class="container">
+    <div class="container ani-fade-up ani-delay">
         <div class="sec-grid middle-content">
             <div class="middle-page">
                 <div class="page-Info">
@@ -140,8 +145,8 @@
         </div>
 
     </div>
-    <div class="container">
-        <div class="sec-grid-4">
+    <div class="container ani-right ani-delay">
+        <div class="sec-grid-4 info-content">
             <div class="content content-1-grid">
                 <h1>PREMİER LEAGUE</h1>
                 <p>Adadaki son durum, podcastler, güncel oyuncu performansları , maç değerlendirmeleri teknik direktör yorumları, kulüplerin son durumları <a style="display:inline-block; color: black;" href="#">...daha fazlası için tıkla..</a></p>
@@ -160,7 +165,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container ani-fade-up ani-delay">
         <div class="sec-grid middle-content">
             <div class="middle-page">
                 <div class="page-Info">
@@ -186,22 +191,59 @@
             </div>
 
         </div>
-
-    </div>
-
-    <div class="container" style="border-top: .2rem solid navy;">
-        <div class="sec-grid-4">
-            <a href="https://twitter.com/emirhankd" target="_blank"><i class="fa fa-twitter icon-text" style="font-size: 4rem;"></i></a>
-            <a href="#"><i class="fa fa-youtube icon-text" style="font-size: 4rem;"></i></a>
-            <a href="https://open.spotify.com/show/0ugBmSS5VrG7gPYJAhXpXB" target="_blank"><i class="fa fa-spotify icon-text" style="font-size: 4rem;"></i></a>
-            <a href="https://medium.com/@ekodalakk" target="_blank"><i class="fa fa-medium icon-text" style="font-size: 4rem;"></i></a>
+        <div class="contact-section ani-delay ani-bottom">
+            <div class="container">
+                <div class="sec-grid contacts">
+                    <div class="contact-info">
+                        <h1>Sorularınız , önerileriniz için bize ulaşabilirsiniz</h1>
+                        <p>Scouting,Football Manager,Futbolcu değerlendirmeleri,Ligler hakkında sitede bulamadığınız sorularınız için ulaşabilirsiniz...
+                        </p>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <label for="name">
+                                
+                                <input type="text" class="name" placeholder="isim giriniz">
+                            </label>
+                            <label for="email">
+                            <input type="email" name="email" class="email" placeholder="email adresiniz">
+                        </label>
+                            <label for="textarea">
+                            <textarea name="textarea" placeholder="mesajınız.." id="textarea"></textarea>
+                        </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
+    <footer class="footer ani-left ani-delay">
+        <div class="container" style="border-top: .2rem solid navy;">
+            <div class="sec-grid">
+                <div class="sec-grid-4">
+                    <a href="https://twitter.com/emirhankd" target="_blank"><i class="fa fa-twitter icon-text"></i></a>
+                    <a href="#"><i class="fa fa-youtube icon-text"></i></a>
+                    <a href="https://open.spotify.com/show/0ugBmSS5VrG7gPYJAhXpXB" target="_blank"><i class="fa fa-spotify icon-text"></i></a>
+                    <a href="https://medium.com/@ekodalakk" target="_blank"><i class="fa fa-medium icon-text"></i></a>
+                </div>
+                <div class="footerheader">
+                    <h1>Bizi sosyal medya hesaplarımızdan takip edin</h1>
+                    <p>Medium , twitter , spotify ve çok yakında youtubedayız..</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
+    <!-- fancybox JS-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- SCROOL REVEV-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/style.js"></script>
+
+
 </body>
 
 </html>

@@ -12,6 +12,24 @@
     font-size: 1.8rem;
 }
 
+.navbar {
+    background-color: var(--Main-Color);
+    margin-bottom: 5rem;
+}
+
+.nav-item a {
+    font-size: 1.2rem;
+    transition: all .2s ease;
+}
+
+.nav-item a:hover {
+    color: #166185;
+    background: #000000;
+}
+
+
+/*fa*/
+
 .fa {
     background-color: transparent;
     color: #ffffff;
@@ -43,29 +61,18 @@
     align-self: center;
 }
 
-.navbar {
-    background-color: var(--Main-Color);
-    margin-bottom: 5rem;
-}
-
-.nav-item a {
-    font-size: 1.2rem;
-    transition: all .2s ease;
-}
-
-.nav-item a:hover {
-    color: #166185;
-    background: #000000;
-}
-
 .fa-home {
     margin-right: 1.4rem;
     font-size: 4rem;
     position: fixed;
     left: 2%;
-    top: 0;
+    top: 2%;
     background-attachment: fixed;
-    color: black;
+    color: #166185;
+}
+
+.fa-home:hover .mainLink {
+    color: #166185;
 }
 
 .mainLink:hover {
@@ -73,15 +80,14 @@
 }
 
 .homeLink {
-    color: black;
+    color: #166185;
     margin-right: 1.4rem;
     font-weight: 3rem;
     font-size: 1rem;
     position: fixed;
     left: 0%;
-    top: 6%;
+    top: 8%;
     background-attachment: fixed;
-    color: black;
 }
 
 .fa-home:hover {
@@ -92,16 +98,24 @@
     color: yellow;
 }
 
+
+/* */
+
+
+/*top content*/
+
+.top-foto {
+    max-width: 1100px;
+    max-height: 300spx;
+    width: 1100px;
+}
+
 .top-content {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: 100%;
-}
-
-.top-section {
-    border-bottom: 0.1rem solid #1e1870;
 }
 
 .top-content .top-Info {
@@ -113,12 +127,8 @@
     line-height: 2.5rem;
 }
 
-.foto {
-    width: 500px;
-    height: 600px;
-    margin: 2rem;
-    padding-top: 2rem;
-}
+
+/* middle page */
 
 .middle-page {
     display: flex;
@@ -139,6 +149,13 @@
     word-spacing: .5rem;
 }
 
+
+/*info content*/
+
+.info-content {
+    margin-top: 3rem;
+}
+
 .content {
     text-align: center;
     height: 300px;
@@ -154,14 +171,8 @@
     color: black;
 }
 
-.footer-items {
-    color: navy;
-}
 
-.icon-text {
-    color: black;
-    font-size: 2rem;
-}
+/*info end */
 
 .foto p {
     font-size: 1.5rem;
@@ -175,4 +186,62 @@
 
 .foto p:hover .icon-text {
     color: #166185;
+}
+
+.photos-top {
+    margin-top: 1em;
+    grid-gap: 1rem;
+}
+
+
+/*Contact Section */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    max-width: 450px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    width: 300px;
+    background: transparent;
+    height: 25px;
+    border: none;
+    border-bottom: 0.1rem solid #166185;
+}
+
+.contact-form #textarea {
+    width: 300px;
+    height: 150px;
+    resize: none;
+    color: black;
+    background: transparent;
+    border: none;
+    border-bottom: 0.1rem solid #166185;
+}
+
+.contacts {
+    height: 300px;
+}
+
+
+/*footer*/
+
+.footer {
+    margin-top: 5rem;
+    max-height: 500px;
+}
+
+.footer-items {
+    color: navy;
+}
+
+.icon-text {
+    color: black;
+    font-size: 2rem;
 }
